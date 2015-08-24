@@ -85,6 +85,7 @@ To install a package, type:
 Make sure you have the following packages:
 
 * python2.7
+* python-pip
 * postgresql-9.3
 * postgresql-client-9.3
 * postgresql-server-dev-9.3
