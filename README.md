@@ -137,17 +137,30 @@ Now let's install a set of useful packages into your environment:
       
   
 
+**Sign up for GitHub**
 
-**Checkout the class repository**
-
-The class is organized a repositories under the organization 4111: http://www.github.com/w4111.  
+GitHub is a source control repository website that many in industry use to manage their projects.
+In fact, this class is organized as repositories under the organization 4111: http://www.github.com/w4111.  
 Each assignment is managed as a separate repository. 
 As the course progresses, more repositories will be made available. 
-Copying a repository to your local machine is called "cloning a repository".  
-Clone this homework using `git`:
 
-    git clone https://github.com/w4111/hw0
-    
+[Go sign up for an account](https://help.github.com/articles/signing-up-for-a-new-github-account)
+
+**Checkout the homework 0 repository**
+
+To work on an assignment, it's a good idea to "fork" the repository into your own
+GitHub account and complete the assignment there.  Let's try this with the homework
+0 repository at https://github.com/w4111/hw0
+
+1. To start, [fork the repository](https://guides.github.com/activities/forking/)
+1. [Clone](http://gitref.org/creating/#clone) the repository to your Azure VM
+1. Once you modify your files, [commit](http://gitref.org/basic/#commit) the changes.
+1. If you want to share it with a teammate, or just want to make sure GitHub has a copy of your files in case
+   the VM crashes, [Push](http://gitref.org/remotes/#push) the changes to GitHub.
+1. If your teammate pushed to the same repository on GitHub, pull the changes from GitHub by typing within the repository:
+
+        git pull
+
 
 ## Test that things worked
 
@@ -219,9 +232,9 @@ Set it up by logging into your [aws.amazon.com](http://aws.amazon.com) account a
 If you can run `psql` and access your RDS database, then push `ctrl+d` to exit the `psql` prompt.
 
 
-**Handing in your work**:
+## Handing in your work
 
-To complete this lab, download the "zoo.json" file from Amazon into your "micro" instance, by typing:
+To complete this homework, download the iowa dataset into your VM instance, by typing:
 
     wget https://raw.githubusercontent.com/w4111/hw0/master/iowa-liquor-sample.csv
 
@@ -230,7 +243,13 @@ Write a python script tthat reads the file and computes the number of records
 Ignore upper and lower casing, so "Single Malt Scotch", and "SINGLE Malt Scotch" all match, whereas
 "Single's Malty Scootch" does not.
 
-You should create a text (.txt) file with the following format:
+
+Fill out the following submisison form.  
+**Note that you must be logged in to Columbia's lionmail to submit, and we will only consider your _first_ submission**.
+
+<iframe src="https://docs.google.com/a/columbia.edu/forms/d/1JmH1zpAk_hIjK7lKbufIjkTHBp2VrOf4eF3cBzsmVbQ/viewform?embedded=true" width="760800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<!--You should create a text (.txt) file with the following format:
 
     <YOURNAME>
     <Student UNI>
@@ -248,6 +267,7 @@ For example:
     print num_whiskies
 
 Upload it to the [coureworks website](http://courseworks.columbia.edu/) as the "hw0" assignment.
+-->
 
 Now you're almost done!  Go read the assigned paper(s) for today.
 
