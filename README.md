@@ -245,12 +245,13 @@ a small sample.
   for a sales transaction log in a silghtly more accessible domain than typical bank transactions**
 
 Write a python script that reads the file and computes the number of records 
-(in this dataset, each line is a record) that contain the exact phrase "single malt scotch" (ignoring case).
+(in this file, each line is a record) that contain the exact case insensitive phrase "single malt scotch".
 Ignore upper and lower casing, so "Single Malt Scotch", and "SINGLE Malt Scotch" all match, whereas
 "Single's Malty Scootch" does not.
 
 
-Fill out the following submisison form.  
+Submit your assignment in the following form (there's more text after the form!)
+
 **Note that you must be logged in to Columbia's lionmail to submit, and we will only consider your _first_ submission**.
 
 <iframe src="https://docs.google.com/a/columbia.edu/forms/d/1JmH1zpAk_hIjK7lKbufIjkTHBp2VrOf4eF3cBzsmVbQ/viewform?embedded=true" width="760800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
