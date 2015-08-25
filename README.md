@@ -15,13 +15,13 @@ which we will use for this class (in this homework, we will use a free
 
 
 <span style="color:#ff5511">**Caution: allocating and running services (e.g., virtual machines) on any cloud provider
-  costs money.  It can be _very_ easy to spend more than you anticipated by leaving your services
+  costs money or credits.  It can be _very_ easy to spend more than you anticipated by leaving your services
   running.  Make it a habit to stop your services when not in use.  If you run out of credits,
   there's not much we (the staff) can do.**</span>
 
 ## Sign up and setup the OS
 
-**Signup**: 
+**Signup**
 
 [register for an account](http://azure.microsoft.com/en-us/offers/ms-azr-0044p/)
 
