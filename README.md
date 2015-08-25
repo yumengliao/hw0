@@ -23,9 +23,10 @@ which we will use for this class (in this homework, we will use a free
 
 **Signup**: 
 
-[register for an account](TBA)
+[register for an account](http://azure.microsoft.com/en-us/offers/ms-azr-0044p/)
 
-You should not expect to provide credit card information.
+You may be asked to submit your credit card information for screening purposes, however _you will not be charged_ as
+the service will stop your account if your trial credits are used up.
 Once the class registration has settled down, we can provide you with information to use the class's Azure credits.
 
 
@@ -278,16 +279,16 @@ For example:
 Upload it to the [coureworks website](http://courseworks.columbia.edu/) as the "hw0" assignment.
 -->
 
-Now you're almost done!  Go read the assigned paper(s) for today.
+Whew, you're almost done!  Go read the assigned readings.
 
-You can always feel free to send us questions on Piazza!
+You can always send us questions on [Piazza](https://piazza.com/class/id26ml2f2m0ju)!
 
 
 
 
 ## Stop your virtual machine
 
-While the free tier should get you through the class, it's very easy to accidentally use up all of your credits.
+While your free trial is pretty good,  it's very easy to accidentally use up all of your credits (including those the course will provide you).
 To conserve your hours (and avoid wasting energy), make sure to turn off your machine **whenever you are not using it**. 
 
 1. Go to the [Azure Console](https://manage.windowsazure.com/).
