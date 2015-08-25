@@ -209,7 +209,6 @@ If it prints something like the following then it works
     psql (PostgreSQL) 9.3.9
     
 
-
 **git repository**
 
 Type `cat hw0/README.md` 
@@ -219,6 +218,7 @@ You should see the instructions for this hw fly by.
 
     
 
+<!--
 **(Optional) PostgreSQL using Amazon RDS**
 
 PostgreSQL is an open source standalone database server (a DBMS!)  
@@ -230,15 +230,21 @@ Set it up by logging into your [aws.amazon.com](http://aws.amazon.com) account a
 [**the instructions**](./rdssetup.pdf).  
 
 If you can run `psql` and access your RDS database, then push `ctrl+d` to exit the `psql` prompt.
+-->
 
 
 ## Handing in your work
 
-To complete this homework, download the iowa dataset into your VM instance, by typing:
+To complete this homework, go into your `hw0/` directory.  There should be a file called
+`iowa-liquor-sample.csv`.  The state of Iowa [released](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy)
+a dataset containing all sales transactions at alcoholic beverage stores during 2014.    We will use
+this dataset for many assignments in this course.  Since it contains over 3 million records, this is
+a small sample.
 
-    wget https://raw.githubusercontent.com/w4111/hw0/master/iowa-liquor-sample.csv
+**Disclaimer: this course does not condone drinking, we are using this dataset because it is a common format
+  for a sales transaction log in a silghtly more accessible domain than typical bank transactions**
 
-Write a python script tthat reads the file and computes the number of records 
+Write a python script that reads the file and computes the number of records 
 (in this dataset, each line is a record) that contain the exact phrase "single malt scotch" (ignoring case).
 Ignore upper and lower casing, so "Single Malt Scotch", and "SINGLE Malt Scotch" all match, whereas
 "Single's Malty Scootch" does not.
