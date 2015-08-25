@@ -233,7 +233,7 @@ If you can run `psql` and access your RDS database, then push `ctrl+d` to exit t
 -->
 
 
-## Handing in your work
+## Perform some data analysis
 
 To complete this homework, go into your `hw0/` directory.  There should be a file called
 `iowa-liquor-sample.csv`.  The state of Iowa [released](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy)
@@ -250,11 +250,13 @@ Ignore upper and lower casing, so "Single Malt Scotch", and "SINGLE Malt Scotch"
 "Single's Malty Scootch" does not.
 
 
-Submit your assignment in the following form (there's more text after the form!)
+
+## Submitting your work
+
+Submit your assignment at http://goo.gl/forms/YzQ1DwHzMy
 
 **Note that you must be logged in to Columbia's lionmail to submit, and we will only consider your _first_ submission**.
 
-<iframe src="https://docs.google.com/a/columbia.edu/forms/d/1JmH1zpAk_hIjK7lKbufIjkTHBp2VrOf4eF3cBzsmVbQ/viewform?embedded=true" width="760800" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <!--You should create a text (.txt) file with the following format:
 
