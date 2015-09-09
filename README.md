@@ -1,7 +1,7 @@
 # HW 0
 
-* *Assigned: TBA**
-* *Due: TBA (just before class)*
+* *Assigned: Sep 9**
+* *Due: 9/14 10AM*
 
 
 The goal of this assignment is for you to set up Microsoft Azure.
